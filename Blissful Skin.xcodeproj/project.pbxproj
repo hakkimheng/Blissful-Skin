@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5253E3D12CC1877A00E1FEDC /* ItemCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253E3D02CC1877A00E1FEDC /* ItemCart.swift */; };
+		5273AA522CBEBBA2004BE9D7 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AA512CBEBBA2004BE9D7 /* FirstPage.swift */; };
+		5273AA542CBEC06B004BE9D7 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AA532CBEC06B004BE9D7 /* Setting.swift */; };
+		5273AA562CBEC50A004BE9D7 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AA552CBEC50A004BE9D7 /* UserInfo.swift */; };
+		5273AA582CBED6AB004BE9D7 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AA572CBED6AB004BE9D7 /* TabBar.swift */; };
+		5273AA5A2CBED826004BE9D7 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AA592CBED826004BE9D7 /* CartView.swift */; };
+		5273AA5C2CBED830004BE9D7 /* TruckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AA5B2CBED830004BE9D7 /* TruckView.swift */; };
+		5273AA5E2CBED838004BE9D7 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AA5D2CBED838004BE9D7 /* PersonView.swift */; };
+		5273AA602CBEDDA2004BE9D7 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AA5F2CBEDDA2004BE9D7 /* HomeScreenView.swift */; };
+		5273AA622CBEE0C8004BE9D7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5273AA612CBEE0C8004BE9D7 /* LoginView.swift */; };
+		5276E8172CC2A226007F7209 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276E8162CC2A226007F7209 /* Account.swift */; };
+		5276E8192CC2C37F007F7209 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276E8182CC2C37F007F7209 /* Alert.swift */; };
+		52B1407F2CC7D0030093B229 /* database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B1407E2CC7D0030093B229 /* database.swift */; };
+		52B140812CC7D0450093B229 /* PostgresClientKit in Frameworks */ = {isa = PBXBuildFile; productRef = 52B140802CC7D0450093B229 /* PostgresClientKit */; };
+		52B140852CC7D9D20093B229 /* databaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B140842CC7D9D20093B229 /* databaseTest.swift */; };
+		52C2E80C2CBD8244002C3930 /* Blissful_SkinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2E80B2CBD8244002C3930 /* Blissful_SkinApp.swift */; };
+		52C2E80E2CBD8244002C3930 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2E80D2CBD8244002C3930 /* ContentView.swift */; };
+		52C2E8102CBD8245002C3930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C2E80F2CBD8245002C3930 /* Assets.xcassets */; };
+		52C2E8132CBD8245002C3930 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C2E8122CBD8245002C3930 /* Preview Assets.xcassets */; };
+		52C2E81D2CBD8245002C3930 /* Blissful_SkinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2E81C2CBD8245002C3930 /* Blissful_SkinTests.swift */; };
+		52C2E8272CBD8245002C3930 /* Blissful_SkinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2E8262CBD8245002C3930 /* Blissful_SkinUITests.swift */; };
+		52C2E8292CBD8245002C3930 /* Blissful_SkinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2E8282CBD8245002C3930 /* Blissful_SkinUITestsLaunchTests.swift */; };
+		52C2E8362CBD828A002C3930 /* blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2E8352CBD828A002C3930 /* blur.swift */; };
+		52C2E8382CBD82AD002C3930 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2E8372CBD82AD002C3930 /* HomeScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52C2E8192CBD8245002C3930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52C2E8002CBD8244002C3930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52C2E8072CBD8244002C3930;
+			remoteInfo = "Blissful Skin";
+		};
+		52C2E8232CBD8245002C3930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52C2E8002CBD8244002C3930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52C2E8072CBD8244002C3930;
+			remoteInfo = "Blissful Skin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5253E3D02CC1877A00E1FEDC /* ItemCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCart.swift; sourceTree = "<group>"; };
+		5273AA512CBEBBA2004BE9D7 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		5273AA532CBEC06B004BE9D7 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		5273AA552CBEC50A004BE9D7 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		5273AA572CBED6AB004BE9D7 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		5273AA592CBED826004BE9D7 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		5273AA5B2CBED830004BE9D7 /* TruckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckView.swift; sourceTree = "<group>"; };
+		5273AA5D2CBED838004BE9D7 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		5273AA5F2CBEDDA2004BE9D7 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		5273AA612CBEE0C8004BE9D7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5276E8162CC2A226007F7209 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		5276E8182CC2C37F007F7209 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		52B1407E2CC7D0030093B229 /* database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = database.swift; sourceTree = "<group>"; };
+		52B140842CC7D9D20093B229 /* databaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = databaseTest.swift; sourceTree = "<group>"; };
+		52C2E8082CBD8244002C3930 /* Blissful Skin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blissful Skin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C2E80B2CBD8244002C3930 /* Blissful_SkinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blissful_SkinApp.swift; sourceTree = "<group>"; };
+		52C2E80D2CBD8244002C3930 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52C2E80F2CBD8245002C3930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52C2E8122CBD8245002C3930 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52C2E8182CBD8245002C3930 /* Blissful SkinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blissful SkinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C2E81C2CBD8245002C3930 /* Blissful_SkinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blissful_SkinTests.swift; sourceTree = "<group>"; };
+		52C2E8222CBD8245002C3930 /* Blissful SkinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blissful SkinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C2E8262CBD8245002C3930 /* Blissful_SkinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blissful_SkinUITests.swift; sourceTree = "<group>"; };
+		52C2E8282CBD8245002C3930 /* Blissful_SkinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blissful_SkinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52C2E8352CBD828A002C3930 /* blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blur.swift; sourceTree = "<group>"; };
+		52C2E8372CBD82AD002C3930 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52C2E8052CBD8244002C3930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B140812CC7D0450093B229 /* PostgresClientKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C2E8152CBD8245002C3930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C2E81F2CBD8245002C3930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52C2E7FF2CBD8244002C3930 = {
+			isa = PBXGroup;
+			children = (
+				52C2E80A2CBD8244002C3930 /* Blissful Skin */,
+				52C2E81B2CBD8245002C3930 /* Blissful SkinTests */,
+				52C2E8252CBD8245002C3930 /* Blissful SkinUITests */,
+				52C2E8092CBD8244002C3930 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52C2E8092CBD8244002C3930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52C2E8082CBD8244002C3930 /* Blissful Skin.app */,
+				52C2E8182CBD8245002C3930 /* Blissful SkinTests.xctest */,
+				52C2E8222CBD8245002C3930 /* Blissful SkinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52C2E80A2CBD8244002C3930 /* Blissful Skin */ = {
+			isa = PBXGroup;
+			children = (
+				52C2E80B2CBD8244002C3930 /* Blissful_SkinApp.swift */,
+				52C2E80D2CBD8244002C3930 /* ContentView.swift */,
+				52B1407E2CC7D0030093B229 /* database.swift */,
+				52B140842CC7D9D20093B229 /* databaseTest.swift */,
+				52C2E8352CBD828A002C3930 /* blur.swift */,
+				5253E3D02CC1877A00E1FEDC /* ItemCart.swift */,
+				52C2E8372CBD82AD002C3930 /* HomeScreen.swift */,
+				5276E8182CC2C37F007F7209 /* Alert.swift */,
+				5273AA5F2CBEDDA2004BE9D7 /* HomeScreenView.swift */,
+				5273AA592CBED826004BE9D7 /* CartView.swift */,
+				5273AA5B2CBED830004BE9D7 /* TruckView.swift */,
+				5273AA5D2CBED838004BE9D7 /* PersonView.swift */,
+				5276E8162CC2A226007F7209 /* Account.swift */,
+				5273AA572CBED6AB004BE9D7 /* TabBar.swift */,
+				5273AA512CBEBBA2004BE9D7 /* FirstPage.swift */,
+				5273AA612CBEE0C8004BE9D7 /* LoginView.swift */,
+				5273AA552CBEC50A004BE9D7 /* UserInfo.swift */,
+				5273AA532CBEC06B004BE9D7 /* Setting.swift */,
+				52C2E80F2CBD8245002C3930 /* Assets.xcassets */,
+				52C2E8112CBD8245002C3930 /* Preview Content */,
+			);
+			path = "Blissful Skin";
+			sourceTree = "<group>";
+		};
+		52C2E8112CBD8245002C3930 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52C2E8122CBD8245002C3930 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52C2E81B2CBD8245002C3930 /* Blissful SkinTests */ = {
+			isa = PBXGroup;
+			children = (
+				52C2E81C2CBD8245002C3930 /* Blissful_SkinTests.swift */,
+			);
+			path = "Blissful SkinTests";
+			sourceTree = "<group>";
+		};
+		52C2E8252CBD8245002C3930 /* Blissful SkinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52C2E8262CBD8245002C3930 /* Blissful_SkinUITests.swift */,
+				52C2E8282CBD8245002C3930 /* Blissful_SkinUITestsLaunchTests.swift */,
+			);
+			path = "Blissful SkinUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52C2E8072CBD8244002C3930 /* Blissful Skin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C2E82C2CBD8245002C3930 /* Build configuration list for PBXNativeTarget "Blissful Skin" */;
+			buildPhases = (
+				52C2E8042CBD8244002C3930 /* Sources */,
+				52C2E8052CBD8244002C3930 /* Frameworks */,
+				52C2E8062CBD8244002C3930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blissful Skin";
+			packageProductDependencies = (
+				52B140802CC7D0450093B229 /* PostgresClientKit */,
+			);
+			productName = "Blissful Skin";
+			productReference = 52C2E8082CBD8244002C3930 /* Blissful Skin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52C2E8172CBD8245002C3930 /* Blissful SkinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C2E82F2CBD8245002C3930 /* Build configuration list for PBXNativeTarget "Blissful SkinTests" */;
+			buildPhases = (
+				52C2E8142CBD8245002C3930 /* Sources */,
+				52C2E8152CBD8245002C3930 /* Frameworks */,
+				52C2E8162CBD8245002C3930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52C2E81A2CBD8245002C3930 /* PBXTargetDependency */,
+			);
+			name = "Blissful SkinTests";
+			productName = "Blissful SkinTests";
+			productReference = 52C2E8182CBD8245002C3930 /* Blissful SkinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52C2E8212CBD8245002C3930 /* Blissful SkinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C2E8322CBD8245002C3930 /* Build configuration list for PBXNativeTarget "Blissful SkinUITests" */;
+			buildPhases = (
+				52C2E81E2CBD8245002C3930 /* Sources */,
+				52C2E81F2CBD8245002C3930 /* Frameworks */,
+				52C2E8202CBD8245002C3930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52C2E8242CBD8245002C3930 /* PBXTargetDependency */,
+			);
+			name = "Blissful SkinUITests";
+			productName = "Blissful SkinUITests";
+			productReference = 52C2E8222CBD8245002C3930 /* Blissful SkinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52C2E8002CBD8244002C3930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					52C2E8072CBD8244002C3930 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					52C2E8172CBD8245002C3930 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 52C2E8072CBD8244002C3930;
+					};
+					52C2E8212CBD8245002C3930 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 52C2E8072CBD8244002C3930;
+					};
+				};
+			};
+			buildConfigurationList = 52C2E8032CBD8244002C3930 /* Build configuration list for PBXProject "Blissful Skin" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52C2E7FF2CBD8244002C3930;
+			packageReferences = (
+				52B1407D2CC7CFF50093B229 /* XCRemoteSwiftPackageReference "PostgresClientKit" */,
+			);
+			productRefGroup = 52C2E8092CBD8244002C3930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52C2E8072CBD8244002C3930 /* Blissful Skin */,
+				52C2E8172CBD8245002C3930 /* Blissful SkinTests */,
+				52C2E8212CBD8245002C3930 /* Blissful SkinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52C2E8062CBD8244002C3930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C2E8132CBD8245002C3930 /* Preview Assets.xcassets in Resources */,
+				52C2E8102CBD8245002C3930 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C2E8162CBD8245002C3930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C2E8202CBD8245002C3930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52C2E8042CBD8244002C3930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5273AA5A2CBED826004BE9D7 /* CartView.swift in Sources */,
+				5273AA582CBED6AB004BE9D7 /* TabBar.swift in Sources */,
+				52C2E8382CBD82AD002C3930 /* HomeScreen.swift in Sources */,
+				5253E3D12CC1877A00E1FEDC /* ItemCart.swift in Sources */,
+				52B140852CC7D9D20093B229 /* databaseTest.swift in Sources */,
+				5276E8172CC2A226007F7209 /* Account.swift in Sources */,
+				52C2E80E2CBD8244002C3930 /* ContentView.swift in Sources */,
+				52C2E80C2CBD8244002C3930 /* Blissful_SkinApp.swift in Sources */,
+				5273AA542CBEC06B004BE9D7 /* Setting.swift in Sources */,
+				5273AA562CBEC50A004BE9D7 /* UserInfo.swift in Sources */,
+				5273AA622CBEE0C8004BE9D7 /* LoginView.swift in Sources */,
+				5273AA5C2CBED830004BE9D7 /* TruckView.swift in Sources */,
+				5273AA5E2CBED838004BE9D7 /* PersonView.swift in Sources */,
+				5273AA602CBEDDA2004BE9D7 /* HomeScreenView.swift in Sources */,
+				52B1407F2CC7D0030093B229 /* database.swift in Sources */,
+				5276E8192CC2C37F007F7209 /* Alert.swift in Sources */,
+				52C2E8362CBD828A002C3930 /* blur.swift in Sources */,
+				5273AA522CBEBBA2004BE9D7 /* FirstPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C2E8142CBD8245002C3930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C2E81D2CBD8245002C3930 /* Blissful_SkinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C2E81E2CBD8245002C3930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C2E8272CBD8245002C3930 /* Blissful_SkinUITests.swift in Sources */,
+				52C2E8292CBD8245002C3930 /* Blissful_SkinUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52C2E81A2CBD8245002C3930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52C2E8072CBD8244002C3930 /* Blissful Skin */;
+			targetProxy = 52C2E8192CBD8245002C3930 /* PBXContainerItemProxy */;
+		};
+		52C2E8242CBD8245002C3930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52C2E8072CBD8244002C3930 /* Blissful Skin */;
+			targetProxy = 52C2E8232CBD8245002C3930 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52C2E82A2CBD8245002C3930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52C2E82B2CBD8245002C3930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52C2E82D2CBD8245002C3930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blissful Skin/Preview Content\"";
+				DEVELOPMENT_TEAM = K3L6KSLF79;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hakkimheng.Blissful-Skin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52C2E82E2CBD8245002C3930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blissful Skin/Preview Content\"";
+				DEVELOPMENT_TEAM = K3L6KSLF79;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hakkimheng.Blissful-Skin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52C2E8302CBD8245002C3930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3L6KSLF79;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hakkimheng.Blissful-SkinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blissful Skin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Blissful Skin";
+			};
+			name = Debug;
+		};
+		52C2E8312CBD8245002C3930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3L6KSLF79;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hakkimheng.Blissful-SkinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blissful Skin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Blissful Skin";
+			};
+			name = Release;
+		};
+		52C2E8332CBD8245002C3930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3L6KSLF79;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hakkimheng.Blissful-SkinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blissful Skin";
+			};
+			name = Debug;
+		};
+		52C2E8342CBD8245002C3930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3L6KSLF79;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hakkimheng.Blissful-SkinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blissful Skin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52C2E8032CBD8244002C3930 /* Build configuration list for PBXProject "Blissful Skin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C2E82A2CBD8245002C3930 /* Debug */,
+				52C2E82B2CBD8245002C3930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C2E82C2CBD8245002C3930 /* Build configuration list for PBXNativeTarget "Blissful Skin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C2E82D2CBD8245002C3930 /* Debug */,
+				52C2E82E2CBD8245002C3930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C2E82F2CBD8245002C3930 /* Build configuration list for PBXNativeTarget "Blissful SkinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C2E8302CBD8245002C3930 /* Debug */,
+				52C2E8312CBD8245002C3930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C2E8322CBD8245002C3930 /* Build configuration list for PBXNativeTarget "Blissful SkinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C2E8332CBD8245002C3930 /* Debug */,
+				52C2E8342CBD8245002C3930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52B1407D2CC7CFF50093B229 /* XCRemoteSwiftPackageReference "PostgresClientKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/codewinsdotcom/PostgresClientKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52B140802CC7D0450093B229 /* PostgresClientKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52B1407D2CC7CFF50093B229 /* XCRemoteSwiftPackageReference "PostgresClientKit" */;
+			productName = PostgresClientKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 52C2E8002CBD8244002C3930 /* Project object */;
+}
