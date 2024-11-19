@@ -14,7 +14,7 @@ class Database {
         configuration.host = "localhost"
         configuration.database = "BlissfulSkin"
         configuration.user = "postgres"
-        configuration.credential = .scramSHA256(password: "Hakkimheng!@#168")
+        configuration.credential = .scramSHA256(password: "")
         configuration.ssl = false
         
         connection = try PostgresClientKit.Connection(configuration: configuration)
